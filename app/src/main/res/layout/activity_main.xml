@@ -70,6 +70,7 @@
 
                 <Button
                     android:id="@+id/buttonAc"
+                    android:onClick="allClearAction"
                     style="@style/buttonRowTop"
                     android:text="@string/ac"
                     />
@@ -77,10 +78,13 @@
                 <Button
                     android:id="@+id/button"
                     style="@style/buttonRowTop"
-                    android:text="@string/txt_delete" />
+                    android:onClick="deleteAction"
+                    android:text="@string/txt_delete"
+                    />
 
                 <Button
                     android:id="@+id/buttonPercent"
+                    android:onClick="percentAction"
                     style="@style/buttonRowTop"
                     android:text="@string/txt_percent" />
             </LinearLayout>
